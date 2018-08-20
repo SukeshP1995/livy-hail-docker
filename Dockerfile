@@ -41,7 +41,6 @@ ENV HADOOP_CONF_DIR $INSTALL_LOC/hadoop-conf
 
 ENV SPARK_VERSION_STRING spark-$SPARK_VERSION-bin-hadoop$HADOOP_VERSION
 ENV LIVY_VERSION_STRING livy-$LIVY_VERSION-bin
-ENV HAIL_VERSION_STRING Hail-devel-bfb525e1fc65-Spark-2.2.0.zip
 
 ENV SPARK_DOWNLOAD_URL ftp://apache.proserve.nl/apache/spark/spark-$SPARK_VERSION/$SPARK_VERSION_STRING.tgz
 ENV LIVY_DOWNLOAD_URL ftp://apache.proserve.nl/apache/incubator/livy/$LIVY_VERSION/livy-$LIVY_VERSION-bin.zip
