@@ -1,5 +1,5 @@
-# docker-livy
-A Docker image for [Livy, the REST Spark Server](https://github.com/cloudera/livy).
+# livy-hail-docker
+A Docker image for [Livy, the REST Spark Server](https://github.com/cloudera/livy) over [Hail](https://hail.is/).
 
 ## Running 
 
