@@ -77,6 +77,7 @@ EXPOSE 8998
 
 ADD spark-defaults.conf $SPARK_HOME/conf/
 ADD livy-defaults.conf $LIVY_HOME/conf/
+ADD log4j.properties $LIVY_HOME/conf/
 
 ENTRYPOINT ["./entrypoint.sh"]
 
