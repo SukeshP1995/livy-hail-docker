@@ -81,6 +81,8 @@ ADD log4j.properties $LIVY_HOME/conf/
 
 RUN mkdir $INSTALL_LOC/data
 
+ADD VERSION .
+
 ENTRYPOINT ["./entrypoint.sh"]
 
 
